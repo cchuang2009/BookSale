@@ -39,6 +39,4 @@ if st.button('Add Book'):
     books.to_csv('book.csv', index=False)
 
 # List the books for sale
-st.header('Books for Sale')
-st.table(books)
 
